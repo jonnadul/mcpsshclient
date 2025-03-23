@@ -1,10 +1,10 @@
 {
-  "name": "ssh",
+  "name": "sshclient",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "ssh": "./build/index.js"
+    "sshclient": "./build/index.js"
   },
   "scripts": {
     "build": "tsc",
