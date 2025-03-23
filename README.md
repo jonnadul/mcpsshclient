@@ -2,10 +2,10 @@
 A simple model context protocol compliant sshclient, that works!!
 
 # Setup Instructions
-1. Run """git clone https://github.com/jonnadul/mcpsshclient.git"""
-2. Run """npm run build"""
+1. Run ```git clone https://github.com/jonnadul/mcpsshclient.git```
+2. Run ```npm run build```
 3. For Claude Desktop, add the following to claude_desktop_config.json
-"""
+```
 {
   "mcpServers": {
     "sshclient": {
@@ -16,7 +16,7 @@ A simple model context protocol compliant sshclient, that works!!
     }
   }
 }
-"""
+```
 4. Run or restart Claude Desktop
 
 # Usage
