@@ -1,0 +1,4 @@
+{
+  "ENABLE_SECAGENT": true,
+  "SECURITY_POLICY": "\"ls\" is the only safe command, all other commands are unsafe"
+}

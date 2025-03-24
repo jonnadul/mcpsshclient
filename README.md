@@ -1,10 +1,21 @@
 # mcpsshclient
-A simple model context protocol compliant sshclient, that works!!
+An :sparkle: agentic :sparkle: model context protocol compliant sshclient!
+
+# Prerequisite
+To enable the agentic capabilities.
+1. Download https://ollama.com/.
+2. Run ```ollama serve```
+3. Run ```ollama pull llama2```
+4. Run ```ollama run llama2```
 
 # Setup Instructions
 1. Run ```git clone https://github.com/jonnadul/mcpsshclient.git```
 2. Run ```npm run build```
-3. For Claude Desktop, add the following to claude_desktop_config.json
+
+To enable the security agent, set ```"ENABLE_SECAGENT": true``` and ```"SECURITY_POLICY"``` in ```secagentconfig.json```
+
+# Configuration
+In your MCP Client make the corresponding change
 ```
 {
   "mcpServers": {
@@ -17,7 +28,10 @@ A simple model context protocol compliant sshclient, that works!!
   }
 }
 ```
-4. Run or restart Claude Desktop
 
-# Usage
-Just ensure that Claude first successully performs the new-ssh-connection operation before attempting to run any commands. Outside of that have (responsible) fun! :rocket:
+So far tested on the following:
+- Claude Desktop: ```claude_desktop_config.json```
+- Cursor AI: Command Panel -> Cursor Settings -> MCP Server
+
+
+Have (responsible) fun! :rocket:
