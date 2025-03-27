@@ -1,5 +1,5 @@
 # mcpsshclient
-An :sparkle: agentic :sparkle: model context protocol compliant sshclient!
+An MCP server SSHClient with a configurable :fireworks:agentic:fireworks: security agent that can detect and prevent "unsafe" commands from executing through your SSH connection.
 
 # Prerequisite
 To enable the agentic capabilities.
