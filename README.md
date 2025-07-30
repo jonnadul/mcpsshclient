@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jonnadul-mcpsshclient-badge.png)](https://mseep.ai/app/jonnadul-mcpsshclient)
+
 # mcpsshclient
 An MCP server SSHClient with a configurable :fireworks:agentic:fireworks: security agent that can detect and prevent "unsafe" commands from executing through your SSH connection.
 
